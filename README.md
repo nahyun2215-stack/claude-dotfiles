@@ -9,8 +9,11 @@ gets the same set.
 ```
 skills/
   find-skills/   # vercel-labs/skills  — discover & install other skills
-  grill-me/      # mattpocock/skills   — relentless interview to sharpen a plan
+  grill-me/      # mattpocock/skills   — trigger for the grilling interview
+  grilling/      # mattpocock/skills   — relentless interview to sharpen a plan
 ```
+
+`grill-me` is just a trigger that delegates to `grilling`; keep them together.
 
 ## Set up on a new machine
 
